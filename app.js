@@ -8,7 +8,7 @@ const {engine} = require('express-handlebars');
 const app = express();
 
 // Määritellään TCP-portti, jota palvelin kuuntelee
-const PORT = ;
+const PORT =  process.env.PORT || 8080 ;
 
 // Määritellään polut kansioihin
 
